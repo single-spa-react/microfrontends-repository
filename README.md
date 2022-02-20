@@ -14,6 +14,8 @@
 ## SystemJs
 >你用single-spa的话 一定会用到systemJS，systemJS是一个通用的模块加载器，它能在浏览器上动态的加载微应用，我们将应用打包成模块，在浏览器中通过SystemJS来加载模块
 
+https://github.com/single-spa-react/microfrontends-repository/blob/master/System.js
+
 
 
 
@@ -32,6 +34,7 @@ mount: app挂载
 unmount: app卸载
 update： service更新，只有service才可用
 **特别说明 以上4个生命周期必须有返回值，且返回必须是Promise的函数或者Promise函数的数组**
+前三个是必须有的， 最后一个可有可无
 
 
 
