@@ -51,3 +51,25 @@ update： service更新，只有service才可用
 
 
 
+## 调试工具
+1. 安装浏览器插件 single-spa-inspector
+2. 代码中增加
+<!-- 
+  import-map-overrides 可以覆盖导入映射
+  当前项目中用于配合 single-spa Inspector 调试工具使用.
+  可以手动覆盖项目中的 JavaScript 模块加载地址, 用于调试.
+-->
+<import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
+
+
+
+## example
+> 这里罗列了很多微前端的demo，各种不同的技术实现方式 包括single-spa,qiankun等，为什么名字叫single-spa-react，qiankun也在这里呢？？ qiankun也是基于single-sap的啊
+
+
+## 更多参考资料
+1. https://micro-frontends.org/
+2. https://martinfowler.com/articles/micro-frontends.html
+
+
+
