@@ -71,5 +71,8 @@ update： service更新，只有service才可用
 1. https://micro-frontends.org/
 2. https://martinfowler.com/articles/micro-frontends.html
 
+## 视频
+1. https://list.youku.com/albumlist/show/id_67903156
+
 
 
